@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		29E5746B2592B66800E7497B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E574692592B66800E7497B /* LaunchScreen.storyboard */; };
 		29E574762592B66800E7497B /* LayerKit_POCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E574752592B66800E7497B /* LayerKit_POCTests.swift */; };
 		29E574812592B66800E7497B /* LayerKit_POCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E574802592B66800E7497B /* LayerKit_POCUITests.swift */; };
+		29E574932592CCC400E7497B /* LayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 29E574922592CCC400E7497B /* LayerKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29E574932592CCC400E7497B /* LayerKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +146,9 @@
 			dependencies = (
 			);
 			name = "LayerKit-POC";
+			packageProductDependencies = (
+				29E574922592CCC400E7497B /* LayerKit */,
+			);
 			productName = "LayerKit-POC";
 			productReference = 29E5745B2592B66800E7497B /* LayerKit-POC.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 29E574522592B66800E7497B;
+			packageReferences = (
+				29E574912592CCC400E7497B /* XCRemoteSwiftPackageReference "LayerKit" */,
+			);
 			productRefGroup = 29E5745C2592B66800E7497B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -593,6 +601,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		29E574912592CCC400E7497B /* XCRemoteSwiftPackageReference "LayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/0xLeif/LayerKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		29E574922592CCC400E7497B /* LayerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29E574912592CCC400E7497B /* XCRemoteSwiftPackageReference "LayerKit" */;
+			productName = LayerKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 29E574532592B66800E7497B /* Project object */;
 }

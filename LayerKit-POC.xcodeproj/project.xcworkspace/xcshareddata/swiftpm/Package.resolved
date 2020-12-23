@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LayerKit",
+        "repositoryURL": "https://github.com/0xLeif/LayerKit",
+        "state": {
+          "branch": "main",
+          "revision": "64a8e44c1ec34703d7a45c80dff840ff48fb5ac7",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
